@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
 
   # spec.license      = "MIT (example)"
-  spec.license      = 'Apache License, Version 2.0'
+  spec.license      = "Apache License, Version 2.0"
 
 
   spec.author             = { "sok Khoinsreng" => "sokkhoinsreng9999@gmail.com" }
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
   spec.framework = "UIKit"
   spec.frameworks = 'Foundation'
-  spec.source_files  = "SourceStarscream/*.swfit"
+  spec.source_files  = "StarscreamMyphsar/SourceStarscream/*.swfit"
 
   spec.swift_version = "4.2"
   # spec.public_header_files = "Classes/**/*.h"
