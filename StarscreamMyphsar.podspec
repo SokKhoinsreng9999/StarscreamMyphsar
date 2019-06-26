@@ -17,12 +17,11 @@ Pod::Spec.new do |spec|
 
 
   # spec.license      = "MIT (example)"
-  spec.license      = "Apache License, Version 2.0"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
+  spec.author       = { "sok Khoinsreng" => "sokkhoinsreng9999@gmail.com" }
 
-  spec.author             = { "sok Khoinsreng" => "sokkhoinsreng9999@gmail.com" }
-
-  spec.homepage = "https://github.com/SokKhoinsreng9999/StarscreamMyphsar"
+  spec.homepage     = "https://github.com/SokKhoinsreng9999/StarscreamMyphsar"
 
 
   spec.source       = { :git => "https://github.com/SokKhoinsreng9999/StarscreamMyphsar.git", :tag => "#{spec.version}" }
