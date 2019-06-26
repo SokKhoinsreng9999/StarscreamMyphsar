@@ -28,6 +28,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/SokKhoinsreng9999/StarscreamMyphsar.git", :tag => "#{spec.version}" }
 
   spec.framework = "UIKit"
+  spec.frameworks = 'Foundation'
   spec.source_files  = "SourceStarscream/*.swfit"
 
   spec.swift_version = "4.2"
